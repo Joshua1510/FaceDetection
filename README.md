@@ -1,4 +1,36 @@
+# Face Detection and Classification with Machine Learning 🤖  
 
+This project implements a complete **image processing and classification pipeline** for face detection and recognition using **OpenCV** and various **Machine Learning** techniques.  
+
+---
+
+## Project Description  
+The purpose of this project is to develop a system capable of detecting and classifying faces in images. The workflow includes face detection using Haar Cascade classifiers, image preprocessing, and subsequent feature extraction for classification. Multiple supervised algorithms such as **KNN**, **Naive Bayes**, **LDA**, and **PCA** are tested to compare their performance. The project also evaluates the models using performance metrics and graphical visualizations of the results.  
+
+---
+
+## Technologies Used  
+- **Python 3.12**  
+**OpenCV - NumPy - Pandas - Matplotlib - Seaborn - Scikit-learn - Scipy - Scikit-image**  
+
+---
+
+## Code Workflow  
+The project starts with the import of facial images, followed by face detection using the Haar Cascade classifier. Detected faces are cropped, resized, and processed with a Gaussian filter to reduce noise and enhance key features. The processed images are then split into training and testing sets, standardized, and used to train several **Machine Learning** models. Performance metrics and confusion matrices are computed to compare model results. Finally, visualizations and performance analyses are presented for each algorithm.  
+
+---
+
+## Expected Results  
+The notebook generates a functional face detection and recognition system capable of identifying faces from a set of images. It displays comparative performance metrics between different algorithms and presents the results through statistical graphs, making it easier to interpret model behavior and recognition accuracy.  
+
+---
+
+## Author  
+**Joshua Arango Fabbri**  
+Electronic Engineer  
+Cali, Colombia  
+[Email](mailto:joshuaarango82@gmail.com)  
+[LinkedIn](https://www.linkedin.com/in/joshua-arango-295589326/)  
 
 
 ---
